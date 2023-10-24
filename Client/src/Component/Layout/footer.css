@@ -1,0 +1,28 @@
+.footer_Section{
+    background:#f0f0f0;
+    box-shadow: -3px -16px 25px -15px rgba(0,0,0,0.75);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* padding: 20px; */
+    /* height: 80px; */
+}
+.About{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 5px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    gap: 30px;
+    
+}
+.icons > * {
+    font-size: 20px;
+  }

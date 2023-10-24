@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.31a97bc3.css",
+    "main.js": "/static/js/main.525e63d5.js",
+    "static/media/images.png": "/static/media/images.881bd74fc7febe539b28.png",
+    "static/media/computer-login-concept-illustration_114360-7892.png": "/static/media/computer-login-concept-illustration_114360-7892.ab6612b80437bfb82a3f.png",
+    "static/media/sign-up-concept-illustration_114360-7965.avif": "/static/media/sign-up-concept-illustration_114360-7965.2c55a090489db2c5ff69.avif",
+    "index.html": "/index.html",
+    "main.31a97bc3.css.map": "/static/css/main.31a97bc3.css.map",
+    "main.525e63d5.js.map": "/static/js/main.525e63d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31a97bc3.css",
+    "static/js/main.525e63d5.js"
+  ]
+}

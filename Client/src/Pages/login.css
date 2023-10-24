@@ -1,0 +1,110 @@
+
+.container_login{
+    /* width: 500px; */
+    /* border: 2px solid red; */
+    display: flex;
+    height: 99.3vh;
+    overflow: hidden;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+.login_form{
+   border-radius: 20px;
+    padding: 20px;
+    background: #ffff;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    box-shadow: 0px 2px 12px 6px rgba(0,0,0,0.75);
+    /* align-items: center; */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+.loginimg{
+    width: 100%;
+    border-radius: 10px;
+    /* border: 3px solid gray; */
+}
+.login_img{
+    /* border: 3px solid rgb(0, 4, 255); */
+    box-shadow: 0px 1px 12px 5px rgba(0,0,0,0.75);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    
+
+}
+.form{
+    box-shadow: 4px 1px 12px 4px rgba(0,0,0,0.75);
+    /* border: 3px solid gray; */
+    border-radius: 10px;
+    justify-content: space-around;
+    height: 100%;
+    background: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 420px;
+    align-items: center;
+}
+.login_data{
+    /* border: 3px solid rgb(255, 12, 174); */
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.register_login{
+    /* border: 2px solid brown; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input_label{
+    font-family: "Inter";
+    color: black;
+}
+.ant-form-item-label {
+    font-family: "Inter";
+    font-size: 25px;
+    color: black;
+  }
+
+  .ant-form-item-control-input {
+    font-family:"Inter"
+  }  
+.login_btn{
+    background: rgb(52, 52, 235);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:#ffff;
+    font-weight: 600;
+    cursor: pointer;
+}  
+.login_btn:hover{
+    background: rgb(107, 107, 209); 
+    
+}
+
+/* //Mobile Screen */
+@media screen and (max-width: 450px) {
+   
+.login_img{
+    display: none;
+}
+.form{
+    width: 100%;
+}
+.login_form{
+    width: 80%;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+}
